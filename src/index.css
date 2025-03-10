@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@import "tailwindcss";
+
+
+@theme{
+  --color-textcolor : #fff;
+  --color-backgroundcolor : #F2F3FB;
+  --color-primarybg : #41436a;
+  --color-secondarybg : #FE9677;
+  --color-primarytext : #2F3246;
+  --color-secondarytext : #B9B4C7;
+  --font-basicfont : Figtree;
+  --font-heading:Figtree;
+  
+}
+
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Background color of the track */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background:  #41436a96;/* Color of the thumb */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #444668; /* Color on hover */
+}
