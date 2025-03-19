@@ -7,14 +7,14 @@ import YoutubeCarousel from "../sections/YoutubeCorousel";
 import ProjectCard from "../sections/WebsitesSection";
 import projects from "../data/project.js";
 import { motion } from "framer-motion";
-import webvid2 from "../assets/webvid2.mp4";
+import webvid3 from "../assets/webvid3.mp4";
 
 const HomePage = () => {
   return (
     <div>
       <div className="w-full md:h-screen flex items-center justify-center  mb-[80px]">
         <video
-          src={webvid2}
+          src={webvid3}
           autoPlay
           loop
           muted
